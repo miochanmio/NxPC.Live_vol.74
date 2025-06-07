@@ -60,7 +60,6 @@ body, html {
   font-size: 1rem;
   margin-bottom: 1rem;
   letter-spacing: 0.6em; /* 文字の間隔を少し広く */
-  transform: translateY(-1000px); /* 上に1000pxずらす */
 }
 
 .hero h1 {
@@ -68,7 +67,6 @@ body, html {
   font-size: 3rem;
   margin-bottom: 1rem;
   letter-spacing: 0.5em; /* 文字の間隔を少し広く */
-  transform: translateY(-500px); /* 上に500pxずらす */
 }
 
 .hero h3 {
