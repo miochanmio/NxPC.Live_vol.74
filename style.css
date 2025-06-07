@@ -123,6 +123,7 @@ body, html {
 }
 
 .info h2, .access h2 {
+  font-family: 'Hiragino Mincho ProN', 'ヒラギノ明朝 ProN', serif;
   font-size: 1.8rem;
   margin-bottom: 20px;
   color: #000;
