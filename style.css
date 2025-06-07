@@ -8,67 +8,84 @@ body, html {
   height: 100%;
   font-family: 'Helvetica Neue', sans-serif;
   color: #fff;
-  overflow-x: hidden;
-  background: #000;
-}
-
-.background {
-  background-image: url("background.jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  height: 200vh;
-  filter: brightness(0.3);
+  background-color: #000;
   position: relative;
   z-index: 0;
 }
 
-.fixed-text {
+/* 背景画像 */
+.background {
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+/* ヒーローセクション */
+.hero {
   text-align: center;
-  z-index: 1;
-  width: 90%;
-  max-width: 700px;
-  backdrop-filter: blur(5px);
-  background-color: rgba(0, 0, 0, 0.4);
-  padding: 30px;
-  border-radius: 12px;
+  padding: 100px 20px 60px;
 }
 
-.fixed-text h1 {
+.hero h1 {
   font-size: 3rem;
-  letter-spacing: 2px;
   margin-bottom: 1rem;
+  letter-spacing: 2px;
 }
 
-.fixed-text p {
+.hero p {
   font-size: 1.2rem;
-  margin: 0.5rem 0;
-  color: #ccc;
+  color: #fff;
 }
 
-.section {
-  margin-top: 2rem;
+/* アクトセクション */
+.artist {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 60px 20px;
+  background-color: rgba(0, 0, 0, 0.6); /* 少し背景を透過させる */
 }
 
-.section h2 {
-  font-size: 1.4rem;
-  color: #888;
-  margin-bottom: 0.5rem;
+.artist img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: block;
 }
 
-.section ul {
-  list-style: none;
+.profile {
+  flex: 1;
+  padding: 20px;
+}
+
+.profile h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.profile p {
   font-size: 1rem;
-  color: #aaa;
-  line-height: 1.6;
-  padding: 0;
-  margin: 0;
+  color: #ddd;
 }
 
-.spacer {
-  height: 200vh;
+/* レスポンシブ対応 */
+@media (min-width: 768px) {
+  .artist {
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .artist img {
+    margin: 0;
+  }
 }
