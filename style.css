@@ -69,6 +69,18 @@ body, html {
   letter-spacing: 0.5em; /* 文字の間隔を少し広く */
 }
 
+.hero h3 {
+  font-family: 'Hiragino Mincho ProN', 'ヒラギノ明朝 ProN', serif;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.hero h4 {
+  font-family: 'Hiragino Mincho ProN', 'ヒラギノ明朝 ProN', serif;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
 .hero p {
   font-size: 1.2rem;
   color: #000;
