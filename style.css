@@ -59,14 +59,14 @@ body, html {
 .hero h0 {
   font-size: 1rem;
   margin-bottom: 1rem;
-  letter-spacing: 1em; /* 文字の間隔を少し広く */
+  letter-spacing: 0.8em; /* 文字の間隔を少し広く */
 }
 
 .hero h1 {
   font-family: 'Hiragino Mincho ProN', 'ヒラギノ明朝 ProN', serif;
   font-size: 3.5rem;
   margin-bottom: 1rem;
-  letter-spacing: 1em; /* 文字の間隔を少し広く */
+  letter-spacing: 0.5em; /* 文字の間隔を少し広く */
 }
 
 .hero p {
