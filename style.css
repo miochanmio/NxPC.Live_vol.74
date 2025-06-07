@@ -99,15 +99,6 @@ body, html {
   flex: 1;
 }
 
-/* 右側の画像 */
-.about-image img {
-  width: 100%;
-  max-width: 300px;
-  border-radius: 8px;
-  margin-right: 0;
-  height: auto;
-}
-
 .info-access-wrapper {
   display: flex;
   justify-content: flex-start;
@@ -201,7 +192,4 @@ body, html {
     align-items: center;
   }
 
-  .about-image img {
-    max-width: 100%;
-  }
 }
