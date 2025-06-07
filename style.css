@@ -181,6 +181,12 @@ body, html {
   color: #000;
 }
 
+html {　/* スマホで文字サイズ調整無効化 */
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+
 @media (max-width: 768px) {
   .info-access-container {
     width: 100%;
