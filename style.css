@@ -21,7 +21,7 @@ body, html {
   height: 100%;
   top: 0;
   left: 0;
-  z-index: -1;
+  /* z-index: -1;
 }
 
 .hero {
@@ -41,6 +41,22 @@ body, html {
   color: #fff;
 }
 
+  /* ラッパー全体 */
+.info-access-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+/* コンテンツを左半分に */
+.info-access-container {
+  width: 50%;
+  padding: 0 8%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+  
 /* 共通セクション */
 section {
   padding: 40px 8%;
@@ -79,7 +95,7 @@ section {
 
 /* 各アーティストカード */
 .artist-card {
-  background-color: rgba(255, 255, 255, 0.01);
+  background-color: rgba(255, 255, 255, 0.03);
   padding: 20px;
   border-radius: 12px;
   text-align: center;
@@ -103,12 +119,13 @@ section {
   color: #ccc;
 }
 
-@media (min-width: 768px) {
-  .artist {
-    flex-wrap: nowrap;
-    justify-content: center;
-    gap: 40px;
+/* 小さな画面用の折り返し（スマホ対応） */
+@media (max-width: 768px) {
+  .info-access-container {
+    width: 100%;
+    padding: 0 5%;
   }
+}
 
   .artist img {
     margin: 0;
