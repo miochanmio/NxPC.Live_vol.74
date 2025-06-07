@@ -120,6 +120,7 @@ body, html {
   padding: 20px;
   border-radius: 10px;
   width: 100%;
+  backdrop-filter: blur(2px); 
 }
 
 .info h2, .access h2 {
@@ -151,6 +152,9 @@ body, html {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 30px;
   padding: 40px 8%;
+  background-color: rgba(255, 255, 255, 0.2); /* ← 半透明白背景 */
+  border-radius: 12px;                        /* ← 角丸 */
+  backdrop-filter: blur(2px); 
 }
 
 .artist-card {
