@@ -9,24 +9,51 @@ body, html {
   font-family: 'Helvetica Neue', sans-serif;
   background-color: transparent;
   color: #fff;
+  position: relative;
+  z-index: 0;
 }
 
 .background {
   background-image: url('background.jpg');
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   position: fixed;
-  width: 100%;
-  height: 100%;
   top: 0;
   left: 0;
+  width: 100%;
+  height: 100%;
   z-index: -1;
+}
+
+/* 固定バナー */
+.fixed-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  z-index: 1000;
+}
+
+.banner-logo {
+  height: 40px;
+  margin-right: 15px;
+}
+
+.banner-title {
+  font-size: 1.8rem;
+  font-family: 'Hiragino Mincho ProN', 'ヒラギノ明朝 ProN', serif;
+  color: #fff;
 }
 
 .hero {
   text-align: center;
-  padding: 100px 20px 60px;
+  padding: 160px 20px 60px; /* バナー分のマージンを確保 */
 }
 
 .hero h1 {
@@ -113,5 +140,14 @@ body, html {
   .info-access-container {
     width: 100%;
     padding: 0 5%;
+  }
+
+  .fixed-banner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .banner-logo {
+    margin-bottom: 5px;
   }
 }
