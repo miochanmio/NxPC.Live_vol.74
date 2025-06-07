@@ -73,14 +73,14 @@ body, html {
   font-family: 'Hiragino Mincho ProN', 'ヒラギノ明朝 ProN', serif;
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  margin-right: 30px; /* 右に300pxずらす */
+  text-align: right;
 }
 
 .hero h4 {
   font-family: 'Hiragino Mincho ProN', 'ヒラギノ明朝 ProN', serif;
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  margin-right: 30px; /* 右に300pxずらす */
+  text-align: right;
 }
 
 .hero p {
