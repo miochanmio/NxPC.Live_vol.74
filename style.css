@@ -115,6 +115,13 @@ body, html {
   text-align: left;
 }
 
+.info, .access, .about-row {
+  background-color: rgba(255, 255, 255, 0.08);
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+}
+
 .info h2, .access h2 {
   font-size: 1.8rem;
   margin-bottom: 20px;
