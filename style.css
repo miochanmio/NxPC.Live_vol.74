@@ -60,7 +60,7 @@ body, html {
   font-size: 1rem;
   margin-bottom: 1rem;
   letter-spacing: 0.8em; /* 文字の間隔を少し広く */
-  transform: translateY(-50px); /* 上に50pxずらす */
+  transform: translateY(-500px); /* 上に500pxずらす */
 }
 
 .hero h1 {
@@ -68,21 +68,21 @@ body, html {
   font-size: 3rem;
   margin-bottom: 1rem;
   letter-spacing: 0.5em; /* 文字の間隔を少し広く */
-  transform: translateY(-50px); /* 上に50pxずらす */
+  transform: translateY(-500px); /* 上に500pxずらす */
 }
 
 .hero h3 {
   font-family: 'Hiragino Mincho ProN', 'ヒラギノ明朝 ProN', serif;
-  font-size: 1.8rem;
+  font-size: 2.3rem;
   margin-bottom: 1rem;
-  margin-left: 20px; /* 右に20pxずらす */
+  margin-left: 150px; /* 右に150pxずらす */
 }
 
 .hero h4 {
   font-family: 'Hiragino Mincho ProN', 'ヒラギノ明朝 ProN', serif;
-  font-size: 1.8rem;
+  font-size: 2.3rem;
   margin-bottom: 1rem;
-  margin-left: 20px; /* 右に20pxずらす */
+  margin-left: 150px; /* 右に150pxずらす */
 }
 
 .hero p {
