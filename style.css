@@ -53,14 +53,14 @@ body, html {
 
 .hero {
   text-align: center;
-  padding: 160px 20px 60px; /* バナー分のマージンを確保 */
+  padding: 160px 20px 80px; /* バナー分のマージンを確保 */
 }
 
 .hero h0 {
   font-size: 1rem;
   margin-bottom: 1rem;
   letter-spacing: 0.8em; /* 文字の間隔を少し広く */
-  transform: translateY(-500px); /* 上に500pxずらす */
+  transform: translateY(-1000px); /* 上に1000pxずらす */
 }
 
 .hero h1 {
@@ -112,7 +112,7 @@ body, html {
 .info-access-wrapper {
   display: flex;
   justify-content: flex-start;
-  padding: 40px 0;
+  padding: 80px 0; /* 余白を広めに */
 }
 
 .info-access-container {
@@ -120,14 +120,14 @@ body, html {
   padding: 0 8%;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 60px; /* セクションごとの間隔を広げる */
   align-items: flex-start;
   text-align: left;
 }
 
 .info h2, .access h2 {
   font-size: 1.8rem;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   color: #000;
   text-align: left;
 }
@@ -135,7 +135,7 @@ body, html {
 .info p, .access p {
   font-size: 1rem;
   color: #000;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
   text-align: left;
 }
 
