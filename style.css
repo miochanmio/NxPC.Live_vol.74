@@ -70,7 +70,7 @@ body, html {
 
 .info-access-wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   padding: 40px 0;
 }
 
@@ -80,18 +80,22 @@ body, html {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  align-items: flex-start;
+  text-align: left;
 }
 
 .info h2, .access h2 {
   font-size: 1.8rem;
   margin-bottom: 10px;
   color: #eee;
+  text-align: left;
 }
 
 .info p, .access p {
   font-size: 1rem;
   color: #ccc;
   margin-bottom: 10px;
+  text-align: left;
 }
 
 .youtube-link {
@@ -140,6 +144,7 @@ body, html {
   .info-access-container {
     width: 100%;
     padding: 0 5%;
+    align-items: flex-start;
   }
 
   .fixed-banner {
